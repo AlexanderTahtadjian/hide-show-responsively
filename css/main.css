@@ -23,7 +23,7 @@ body {
 
 @media only screen and (min-width: 25em) {
 
-  div {
+  div .dino-wrap {
     display: inline-block;
   }
 
@@ -43,7 +43,7 @@ body {
     line-height: 1.5;
   }
 
-  div {
+  div .dino-wrap {
     display: inline-block;
     vertical-align: middle;
   }
