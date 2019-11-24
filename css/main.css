@@ -26,11 +26,6 @@ img {
   width: 100%;
 }
 
-.dino:first-child {
-  display: inline-block;
-  width: 100%;
-}
-
 .dino:nth-child(2) {
   display: none;
 }
