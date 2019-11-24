@@ -40,6 +40,10 @@ img {
     display: inline-block;
   }
 
+  .dino:first-child {
+    display: block;
+  }
+
   .dino:nth-child(2) {
     display: block;
   }
@@ -72,7 +76,7 @@ img {
     display: flex;
   }
 
-  .dino:nth-child(1) {
+  .dino:first-child {
     display: none;
   }
 
