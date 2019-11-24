@@ -38,7 +38,6 @@ img {
 
   .dino-wrap {
     display: inline-block;
-    width: 50%;
   }
 
   .dino:nth-child(2) {
@@ -57,12 +56,8 @@ img {
     line-height: 1.4;
   }
 
-  .dino:first-child {
-    display: none;
-  }
-
   .dino-wrap {
-    display:flex;
+    display:block;
   }
 
 }
@@ -79,17 +74,14 @@ img {
 
   .dino:nth-child(1) {
     display: block;
-    width: 33.3333%;
   }
 
   .dino:nth-child(2) {
     display: block;
-    width: 33.3333%;
   }
 
   .dino:nth-child(3) {
     display: block;
-    width: 33.3333%;
   }
 
   .dino:nth-child(4) {
