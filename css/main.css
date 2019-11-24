@@ -83,7 +83,26 @@ img {
   }
 
   .dino-wrap {
-    display: inline-block;
+    display: flex;
+  }
+
+  .dino:nth-child(1) {
+    display: block;
+    width: 33.3333%;
+  }
+
+  .dino:nth-child(2) {
+    display: block;
+    width: 33.3333%;
+  }
+
+  .dino:nth-child(3) {
+    display: block;
+    width: 33.3333%;
+  }
+
+  .dino:nth-child(4) {
+    display: none;
   }
 
 }
